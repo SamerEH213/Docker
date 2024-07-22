@@ -1,4 +1,5 @@
 - create .env file and fill it with all env variables you need like this:
+  
 AIRFLOW__CORE__LOAD_DEFAULT_CONNECTIONS=False
 AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgres+psycopg2://airflow:airflow@postgres:5432/airflow
 AIRFLOW__CORE__FERNET_KEY=81HqDtbqAywKSOumSha3BhWNOdQ26slT6K0YaZeZyPs=
